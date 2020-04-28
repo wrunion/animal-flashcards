@@ -33,10 +33,10 @@ const animalList = [
 
 const CardList = () => {
   return(
-  <div id="card-list" className="grid-container">
+  <div id="card-list" className="flex-container">
   {animalList.map((animal => 
     <FlashCard 
-      className="grid-item single-card"
+      className="grid-container flex-item card"
       animalName={animal.name}
       animalImage={animal.src}
     />
