@@ -4,15 +4,22 @@ class FlashCard extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-        imageShowing: false
+        imageShowing: true
     }
+    this.handleClick = this.handleClick.bind(this);
+  }
+
+  handleClick(e) {
+    this.state.imageShowing ? 
+    this.setState({ imageShowing : false }) : this.setState({ imageShowing : true });
   }
 
   render() {
+    const { animalName, animalImage } = this.props;
     return (
-      <div className="FlashCard">
-        <h2>Placeholder text</h2>
-        <p>{this.props.sample}</p>
+      <div className="FlashCard" onClick={this.handleClick}>
+        <h2>{this.state.imageShowing ? animalName : null}</h2>
+        <img src={this.state.imageShowing? null : animalImage} alt="" />
       </div>
     )
   }
