@@ -1,7 +1,7 @@
 .FlashCard {
   width: 200px;
   height: 200px;
-  border: 1px lightgrey solid;
+  border: .75px lightgrey solid;
   border-radius: 5px;
   box-shadow: 3px 3px 3px 0 lightgrey;
   margin: 10px;
@@ -10,16 +10,15 @@
   justify-content: center;
 }
 
-/* .FlashCard img {
-  height: auto;
-  width: 80%;
-  /* display: inline; 
-} */
-
 .FlashCard img {
   height: 90%;
   width: auto;
   margin: auto;
+}
+
+.FlashCard h1 {
+  color:#5c5c5c;
+  /* color: #14173c; */
 }
 
 #card-list {
@@ -27,7 +26,6 @@
   flex-flow: row wrap;
   justify-items: center;
   flex-basis: auto;
-  /* height:  */
 }
 
 .card {
