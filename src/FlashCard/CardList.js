@@ -1,11 +1,21 @@
 import React from 'react';
+import './FlashCard.css';
 import FlashCard from './FlashCard';
 import alligator from './../assets/alligator.png';
 import elephant from './../assets/elephant.png';
 import frog from './../assets/frog.png';
+import giraffe from './../assets/giraffe.png';
+import hedgehog from './../assets/hedgehog.png';
+import kangaroo from './../assets/kangaroo.png';
+import lion from './../assets/lion.png';
 import monkey from './../assets/monkey.png';
+import owl from './../assets/owl.png';
+import pandabear from './../assets/pandabear.png';
+import parrot from './../assets/parrot.png';
+import rabbit from './../assets/rabbit.png';
+import snake from './../assets/snake.png';
 import tiger from './../assets/tiger.png';
-import './FlashCard.css';
+
 
 
 const animalList = [
@@ -22,13 +32,41 @@ const animalList = [
     src: frog
   },
   {
+    name: 'Giraffe',
+    src: giraffe
+  },
+  {
+    name: 'Hedgehog',
+    src: hedgehog
+  },
+  {
+    name: 'Lion',
+    src: lion
+  },
+  {
     name: 'Monkey',
     src: monkey
   },
   {
+    name: 'Owl',
+    src: owl
+  },
+  {
+    name: 'Kangaroo',
+    src: kangaroo
+  },
+  {
     name: 'Tiger',
     src: tiger
-  } 
+  }, 
+  {
+    name: 'Parrot',
+    src: parrot
+  },
+    {
+    name: 'Panda Bear',
+    src: pandabear
+  }
 ]
 
 const CardList = () => {
