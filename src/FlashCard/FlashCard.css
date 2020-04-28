@@ -5,12 +5,21 @@
   border-radius: 5px;
   box-shadow: 3px 3px 3px 0 lightgrey;
   margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.FlashCard img {
+/* .FlashCard img {
   height: auto;
   width: 80%;
-  /* display: inline; */
+  /* display: inline; 
+} */
+
+.FlashCard img {
+  height: 90%;
+  width: auto;
+  margin: auto;
 }
 
 #card-list {

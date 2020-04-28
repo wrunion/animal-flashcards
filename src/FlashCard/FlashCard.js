@@ -18,10 +18,10 @@ class FlashCard extends React.Component {
     const { animalName, animalImage } = this.props;
     return (
       <div className="FlashCard" onClick={this.handleClick}>
-        <h2>{this.state.imageShowing ? animalName : null}</h2>
-        <img src={this.state.imageShowing ? null : animalImage} alt="" />
+        {this.state.imageShowing ? <h2>{animalName}</h2> :
+        <img src={animalImage} alt=""/>}
       </div>
-    )
+    );
   }
 }
 
