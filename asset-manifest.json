@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/animal-flashcards/static/css/main.8e53cb66.chunk.css",
+    "main.js": "/animal-flashcards/static/js/main.8644e6e4.chunk.js",
+    "main.js.map": "/animal-flashcards/static/js/main.8644e6e4.chunk.js.map",
+    "runtime-main.js": "/animal-flashcards/static/js/runtime-main.e9d79776.js",
+    "runtime-main.js.map": "/animal-flashcards/static/js/runtime-main.e9d79776.js.map",
+    "static/js/2.b04793e7.chunk.js": "/animal-flashcards/static/js/2.b04793e7.chunk.js",
+    "static/js/2.b04793e7.chunk.js.map": "/animal-flashcards/static/js/2.b04793e7.chunk.js.map",
+    "index.html": "/animal-flashcards/index.html",
+    "precache-manifest.76e43f2ec97c3608c3c8824b3cbd4a06.js": "/animal-flashcards/precache-manifest.76e43f2ec97c3608c3c8824b3cbd4a06.js",
+    "service-worker.js": "/animal-flashcards/service-worker.js",
+    "static/css/main.8e53cb66.chunk.css.map": "/animal-flashcards/static/css/main.8e53cb66.chunk.css.map",
+    "static/js/2.b04793e7.chunk.js.LICENSE.txt": "/animal-flashcards/static/js/2.b04793e7.chunk.js.LICENSE.txt",
+    "static/media/alligator.png": "/animal-flashcards/static/media/alligator.ae959a2b.png",
+    "static/media/elephant.png": "/animal-flashcards/static/media/elephant.0fc83bda.png",
+    "static/media/frog.png": "/animal-flashcards/static/media/frog.c5c681d0.png",
+    "static/media/giraffe.png": "/animal-flashcards/static/media/giraffe.6b261573.png",
+    "static/media/hedgehog.png": "/animal-flashcards/static/media/hedgehog.84089516.png",
+    "static/media/kangaroo.png": "/animal-flashcards/static/media/kangaroo.954492fe.png",
+    "static/media/lion.png": "/animal-flashcards/static/media/lion.e2eb7f1c.png",
+    "static/media/monkey.png": "/animal-flashcards/static/media/monkey.7aaef966.png",
+    "static/media/owl.png": "/animal-flashcards/static/media/owl.b059810b.png",
+    "static/media/pandabear.png": "/animal-flashcards/static/media/pandabear.50e54265.png",
+    "static/media/parrot.png": "/animal-flashcards/static/media/parrot.a8908f72.png",
+    "static/media/tiger.png": "/animal-flashcards/static/media/tiger.27bb20d3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e9d79776.js",
+    "static/js/2.b04793e7.chunk.js",
+    "static/css/main.8e53cb66.chunk.css",
+    "static/js/main.8644e6e4.chunk.js"
+  ]
+}
