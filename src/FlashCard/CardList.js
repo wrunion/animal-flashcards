@@ -3,7 +3,9 @@ import FlashCard from './FlashCard';
 import alligator from './../assets/alligator.png';
 import elephant from './../assets/elephant.png';
 import frog from './../assets/frog.png';
-import giraffe from './../assets/giraffe.png';
+import monkey from './../assets/monkey.png';
+import tiger from './../assets/tiger.png';
+import './FlashCard.css';
 
 
 const animalList = [
@@ -20,21 +22,27 @@ const animalList = [
     src: frog
   },
   {
-    name: 'Giraffe',
-    src: giraffe
+    name: 'Monkey',
+    src: monkey
+  },
+  {
+    name: 'Tiger',
+    src: tiger
   } 
 ]
 
 const CardList = () => {
-  // eslint-disable-next-line no-lone-blocks
+  return(
+  <div id="card-list" className="grid-container">
   {animalList.map((animal => 
     <FlashCard 
-      className="card-grid-item"
+      className="grid-item single-card"
       animalName={animal.name}
-      animalImage={animal.image}
-      src={animal.image}
+      animalImage={animal.src}
     />
     ))}
+    </div>
+  );
 }
 
 export default CardList;

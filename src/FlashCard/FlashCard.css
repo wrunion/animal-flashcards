@@ -4,4 +4,20 @@
   border: 1px darkblue solid;
   border-radius: 5px;
   box-shadow: 3px 3px 3px 0 lightgrey;
+  margin: 10px;
 }
+
+.FlashCard img {
+  height: auto;
+  width: 80%;
+  /* display: inline; */
+}
+
+#card-list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-items: center;
+  flex-basis: auto;
+  /* height:  */
+}
+

@@ -1,7 +1,8 @@
 import React from 'react';
 // import ButtonClick from './ButtonClick/ButtonClick';
 import Header from './Header/Header';
-import FlashCard from './FlashCard/FlashCard';
+// import FlashCard from './FlashCard/FlashCard';
+import CardList from './FlashCard/CardList';
 import './App.css';
 
 function App() {
@@ -10,12 +11,7 @@ function App() {
       <div className="header-main">
        <Header />
       </div>
-      <div id="FlashCards">
-        <FlashCard 
-          animalName="Giraffe"
-          animalImage="[Image Here]"
-        />
-      </div>
+      <CardList />
     </div>
   );
 }
