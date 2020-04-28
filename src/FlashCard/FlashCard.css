@@ -1,7 +1,7 @@
 .FlashCard {
   width: 200px;
   height: 200px;
-  border: 1px darkblue solid;
+  border: 1px lightgrey solid;
   border-radius: 5px;
   box-shadow: 3px 3px 3px 0 lightgrey;
   margin: 10px;
