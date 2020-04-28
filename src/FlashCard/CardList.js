@@ -12,11 +12,7 @@ import monkey from './../assets/monkey.png';
 import owl from './../assets/owl.png';
 import pandabear from './../assets/pandabear.png';
 import parrot from './../assets/parrot.png';
-import rabbit from './../assets/rabbit.png';
-import snake from './../assets/snake.png';
 import tiger from './../assets/tiger.png';
-
-
 
 const animalList = [
   {
