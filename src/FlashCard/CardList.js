@@ -1,17 +1,28 @@
 import React from 'react';
 import FlashCard from './FlashCard';
-import tiger from './../assets/tiger.png';
+import alligator from './../assets/alligator.png';
+import elephant from './../assets/elephant.png';
+import frog from './../assets/frog.png';
+import giraffe from './../assets/giraffe.png';
 
 
 const animalList = [
   {
-    name: 'Tiger',
-    src: tiger
+    name: 'Alligator',
+    src: alligator
   },
   {
-    name: 'Elephant'
-  }
-
+    name: 'Elephant',
+    src: elephant
+  },
+  {
+    name: 'Frog',
+    src: frog
+  },
+  {
+    name: 'Giraffe',
+    src: giraffe
+  } 
 ]
 
 const CardList = () => {
